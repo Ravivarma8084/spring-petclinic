@@ -9,5 +9,10 @@ trigger:
 pool:
   name: Default
 steps:
-  - bash: mvn Package
-    display name: 'build package using maven'
+  - task: Maven@3'
+    inputs:
+      MavenPOMFile: "pom.xml"
+      goals: 'package'
+      publishunittestsresults: true
+      testresultsfile: '**/sure-firereports/TEST-*.xml'
+      testruntitle: 'unittests'

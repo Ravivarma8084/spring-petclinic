@@ -15,4 +15,4 @@ steps:
       goals: 'package'
       publishunittestsresults: true
       testresultsfile: '**/sure-firereports/TEST-*.xml'
-      testruntitle: 'unittests'
+      testruntitle: 'unitTessts'

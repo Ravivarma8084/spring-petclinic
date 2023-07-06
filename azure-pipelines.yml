@@ -9,5 +9,5 @@ trigger:
 pool:
   name: Default
 steps:
-  - bash: mvn package
+  - bash: mvn Package
     display name: 'build package using maven'

@@ -13,6 +13,6 @@ steps:
     inputs:
       MavenPOMFile: "pom.xml"
       goals: 'package'
-      publishunittestsresults: true
+      publishunittestsresults: "true"
       testresultsfile: '**/sure-firereports/TEST-*.xml'
       testruntitle: 'unitTessts'

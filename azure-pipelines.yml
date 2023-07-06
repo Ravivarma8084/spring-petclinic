@@ -10,4 +10,4 @@ pool:
   name: Default
 steps:
   - bash: mvn package
-    display name: 'build  and package using maven'
+    display name: 'build package using maven'
